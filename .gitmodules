@@ -1,3 +1,3 @@
 [submodule "simpleCalDAV"]
-	path = simpleCalDAV
+	path = NativePHP/simpleCalDAV
 	url = https://github.com/wvrzel/simpleCalDAV
