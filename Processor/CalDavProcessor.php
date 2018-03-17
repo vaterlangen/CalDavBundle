@@ -11,7 +11,7 @@ use vaterlangen\CalDavBundle\Model\EventAttendeesInterface;
 use vaterlangen\CalDavBundle\Model\EventOpaqueInterface;
 use vaterlangen\CalDavBundle\Model\EventWholeDayInterface;
 use vaterlangen\CalDavBundle\Model\AttendeeInterface;
-use vaterlangen\CalDavBundle\NativePHP\CalDavClient;
+use vaterlangen\CalDavBundle\External\simpleCalDAV\CalDavClient;
 
 use Symfony\Component\Locale\Locale;
 use Symfony\Component\HttpFoundation\File\File;
@@ -107,7 +107,7 @@ class CalDavProcessor
 	}
 	
 	/**
-	 * Receive vcard from server
+	 * Receive vEvent from server
 	 *
 	 * @param object $entity
 	 * @param  bool $returnRaw

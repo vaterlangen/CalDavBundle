@@ -1,6 +1,6 @@
 <?php
 
-namespace vaterlangen\CalDavBundle\NativePHP;
+namespace vaterlangen\CalDavBundle\Processor;
 
 /*
  * This file is heavily based on vCard PHP <http://vCardphp.sourceforge.net> by Frank Hellwig <frank@hellwig.org> 
