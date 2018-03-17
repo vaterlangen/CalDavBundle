@@ -11,7 +11,6 @@ use vaterlangen\CalDavBundle\Model\EventAttendeesInterface;
 use vaterlangen\CalDavBundle\Model\EventOpaqueInterface;
 use vaterlangen\CalDavBundle\Model\EventWholeDayInterface;
 use vaterlangen\CalDavBundle\Model\AttendeeInterface;
-use vaterlangen\CalDavBundle\External\simpleCalDAV\CalDavClient;
 
 use Symfony\Component\Locale\Locale;
 use Symfony\Component\HttpFoundation\File\File;
