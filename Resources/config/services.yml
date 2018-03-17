@@ -1,0 +1,7 @@
+parameters:
+    vaterlangen.caldav.processor.class: vaterlangen\CalDavBundle\Processor\CalDavProcessor
+
+services:
+    vaterlangen_caldav:
+        class: %vaterlangen.caldav.processor.class%
+        arguments: ['@service_container']
